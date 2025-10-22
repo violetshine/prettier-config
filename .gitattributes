@@ -1,0 +1,2 @@
+# Always use LF line endings instead of CRLF
+* text=auto eol=lf

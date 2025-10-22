@@ -1,0 +1,26 @@
+{
+	"name": "@violetshine/prettier-config",
+	"version": "1.0.0",
+	"description": "Prettier config that complies with my personal coding style for web projects",
+	"keywords": ["prettier"],
+	"license": "MIT",
+	"author": "Violetshine <me@violetshine.net>",
+	"main": "index.mjs",
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/violetshine/prettier-config.git"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"peerDependencies": {
+		"prettier": ">=3.6.0"
+	},
+	"devDependencies": {
+		"prettier": "^3.6.2"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
