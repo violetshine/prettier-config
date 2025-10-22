@@ -1,6 +1,6 @@
 {
 	"name": "@violetshine/prettier-config",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Prettier config that complies with my personal coding style for web projects",
 	"keywords": ["prettier"],
 	"license": "MIT",
