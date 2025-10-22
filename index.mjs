@@ -18,9 +18,10 @@ const config = {
 
 	printWidth: 80, // NOT the hard upper allowed line length limit
 	
-	// Tabs of width 4 for indentation
+	// Use tabs for indentation
 	useTabs: true,
-	tabWidth: 4,
+	tabWidth: 2, // HOWEVER, if it's a file like yaml where (for some stupid reason)
+	             // tabs are disallowed, fall back to two spaces.
 
 	// No semicolons at the end of every statement - it feels unnecessary
 	semi: false,
